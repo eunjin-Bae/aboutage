@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;700&display=swap');
+
+.col-1 { width: 50%; }
+
+.text-title {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.text-subtitle {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.text-normal {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.text-white { color: rgb(255, 255, 255); }
+.text-black { color: #000000; }
+
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+
+#menuBar {
+    position: fixed;
+    top: 0; /* 화면의 맨 위에 고정 */
+    width: 100%;
+    background: #000D65;
+    display: flex;
+    justify-content: center; /* Centering the menu */
+}
+
+#menus {
+    width: 1420px;
+    display: flex;
+    justify-content: center; /* Centering the menu items */
+}
+
+#menuList {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    color: aliceblue;
+}
+
+#menuList li {
+    margin: 10px 30px;
+}
+
+#menuList li a {
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#menuList li a:hover {
+    color: #FFD700; /* Optional: Change color on hover */
+}
+
+#contents {
+    width: 100%;
+    margin-top: 10px; /* Adjust this if your menu bar has different height */
+}
+
+.section {
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content01{
+    height: 610px;
+    flex-shrink: 0;
+    background-color: #10229C;
+    display: flex;
+    justify-content: center;
+    }
+    
+
+
+#content02{
+    background-color: #10229C;
+    height: 690px;
+    display: flex;
+    justify-content: center;
+}
+
+#content03{
+    background-color: #10229C;
+    height: 1240px;
+    display: flex;
+    justify-content: center;
+}
+
+#content04{
+    background-color: #10229C;
+    height: 990px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+#content05{
+    background-color: #000000;
+    height: 855px;
+    display: flex;
+    justify-content: center;
+}
+
+#content06{
+    background-color: #000000;
+    height: 475px;
+    display: flex;
+    justify-content: center;
+}
+
+#content07{
+    background-color: #000000;
+    height: 1160px;
+    display: flex;
+    justify-content: center;
+}
+
+#content08{
+    background-color: #9C1010;
+    height: 670px;
+    display: flex;
+    justify-content: center;
+}
+
+#content09{
+    background-color: #9C1010;
+    height: 1356px;
+    display: flex;
+    justify-content: center;
+}
+
+#content10{
+    background-color: #AFAFAF;
+    height: 790px;
+    display: flex;
+    justify-content: center;
+}
+
+#content11{
+    background-color: #AFAFAF;
+    height: 816px;
+    display: flex;
+    justify-content: center;
+}
+
+#content12{
+    background-color: #AFAFAF;
+    height: 1400px;
+    display: flex;
+    justify-content: center;
+}
+
+#content13{
+    background-color: #AFAFAF;
+    height: 880px;
+    display: flex;
+    justify-content: center;
+}
+
+#content14{
+    background-color: #000D65;
+    height: 277px;
+    display: flex;
+    justify-content: center;
+}
